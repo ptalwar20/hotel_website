@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.7em
+}
+
+h1,h2,h3 {
+  padding-bottom: 20px; 
+}
+
+p {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+
+}
+
+.container {
+  padding: 0 20px;
+  overflow: auto;
+  max-width: 1100px;
+  margin: auto;
+
+}
+/* Header -- Navbar */
+.logo {
+  padding-top:20px;
+  color: white;
+  float: left;
+}
+
+#nav-header ul {
+  float: right;
+}
+#nav-header ul li {
+  float:left;
+  list-style: none;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+#nav-header ul li a {
+}
+
+#nav-header ul li a.current {
+  padding:22px;
+  color: #f7c08a;
+  background: #444444
+}
+/* Header -- Showcase */
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 400px;
+}
+#showcase .showcase-content {
+  padding-top: 170px;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+}
+
+/* Info Section */
+#home-info {
+  height: 400px;
+}
+#home-info .info-image {
+  background: url('../img/photo-1.jpg') no-repeat;
+  width: 50%;
+  min-height: 100%;
+  float: left;
+  
+}
+
+#home-info .info-content {
+  padding: 50px 30px;
+  text-align: center;
+  color: #fff;
+  float: right;
+  width: 50%;
+}
+
+/* Features Section */
+
+#features .box {
+float:left;
+  width: 33.3%;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Footer */
+
+#main-footer {
+  /* padding: 20px; */
+  text-align: center;
+  color:#fff;
+  background:#444444;
+
+}
+
+/* Utility Classes */
+.clr {
+  clear: both;
+}
+.bg-dark {
+  background: #333333;
+}
+
+.bg-light {
+  background: #f4f4f4;
+}
+
+.bg-primary {
+  background: #f7c08a;
+}
+
+.primary {
+  color: #f7c08a;
+}
+
+.btn {
+  font-size: 18px;
+  background-color: #333333;
+  padding: 13px 20px;
+  border: 1px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-light {
+  background: #fff;
+  color: #333333;
+}
+.btn:hover {
+  color: #f7c08a;
+}
