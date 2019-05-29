@@ -14,9 +14,6 @@ h1,h2,h3 {
   padding-bottom: 20px; 
 }
 
-p {
-  padding: 10px;
-}
 
 a {
   text-decoration: none;
@@ -32,6 +29,10 @@ a {
   margin: auto;
 
 }
+/** 
+ * Homepage 
+ */
+
 /* Header -- Navbar */
 .logo {
   padding-top:20px;
@@ -50,8 +51,6 @@ a {
   
 }
 
-#nav-header ul li a {
-}
 
 #nav-header ul li a.current {
   padding:22px;
@@ -72,7 +71,9 @@ a {
 #showcase .showcase-content h1 {
   font-size: 60px;
 }
-
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+}
 /* Info Section */
 #home-info {
   height: 400px;
@@ -91,6 +92,10 @@ a {
   color: #fff;
   float: right;
   width: 50%;
+}
+
+#home-info .info-content p {
+  padding-bottom: 20px;
 }
 
 /* Features Section */
@@ -112,25 +117,87 @@ float:left;
 
 }
 
+/** 
+ * About Page
+ **/
+ 
+ /* #about-showcase {
+  height: 400px;
+ } */
+#about-showcase .about-showcase-content {
+  width: 50%;
+  float: left;
+  min-height: 100%;
+}
+#about-showcase .about-showcase-content h1 {
+  font-size: 40px;
+}
+#about-showcase .about-showcase-photo {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-showcase .about-showcase-photo img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+/* Testimonials */
+#testimonials {
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  height: 600px;
+  padding-top: 100px;
+  text-align: center;
+}
+#testimonials h2 {
+  padding-bottom: 40px;
+  color: white;
+}
+#testimonials .testimonial {
+  border-radius: 5px;
+  padding: 20px 40px 40px 40px;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+#testimonials .testimonial img {
+  float: left;
+  width: 60px;
+  margin-right: 20px;
+  border-radius: 50%;
+  
+}
+
 /* Utility Classes */
 .clr {
   clear: both;
 }
+/* backgrounds */
 .bg-dark {
   background: #333333;
+  color: #f4f4f4;
 }
 
 .bg-light {
   background: #f4f4f4;
+  color: #333333;
 }
 
 .bg-primary {
   background: #f7c08a;
+  color:#444444;
 }
-
-.primary {
+/* text colors */
+.primary-text {
   color: #f7c08a;
 }
+/* headings */
+
+.l-heading {
+  font-size: 40px;
+}
+/* Buttons */
 
 .btn {
   font-size: 18px;
@@ -147,4 +214,14 @@ float:left;
 }
 .btn:hover {
   color: #f7c08a;
+}
+
+/* Different paddings */
+
+.py-1 {
+  padding: 10px 0;
+}
+
+.py-3 {
+  padding: 30px 0;
 }
